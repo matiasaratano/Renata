@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Assistant-ExtraLight';
+    src: url('Assistant-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Puedes ajustar el peso según sea necesario */
+    font-style: normal; /* Puedes ajustar el estilo según sea necesario */
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+  font-family: 'Assistant-ExtraLight', sans-serif; 
+}
+
+.navbar {
+    height: 150px; /* Ajusta esta altura al tamaño de tu logo */
+    font-family: 'Assistant-ExtraLight', sans-serif; 
+    font-size: 14px;
+}
+
+.navbar-logo {
+    height: 108px; /* Asegúrate de que esta altura coincida con la del logo */
+    width: auto;
+    margin-left: 100px;
+}
+.navbar-nav {
+  margin-right: 100px;
+}
+
+#myCarousel {
+    margin-top: 100px; /* Ajusta este valor según la altura de tu header */
+}
+ 
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .navbar-collapse {
+        text-align: center;
+    }
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Altura del carrusel */
+.carousel-item {
+  height: 45rem;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Esto asegura que la imagen cubra el área del contenedor */
+}
+
+
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 30rem; /* Ajusta la altura para pantallas más pequeñas */
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2rem; /* Ajusta el tamaño del encabezado */
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 2rem; /* Ajusta el tamaño de los controles */
+    width: 2rem;  /* Ajusta el tamaño de los controles */
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 20rem; /* Ajusta la altura para pantallas muy pequeñas */
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño del encabezado */
+  }
+
+  .carousel-caption p {
+    font-size: 0.875rem; /* Ajusta el tamaño del texto */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 1.5rem; /* Ajusta el tamaño de los controles */
+    width: 1.5rem;  /* Ajusta el tamaño de los controles */
+  }
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+#back-to-top {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #c31949; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+}
+
+#back-to-top:hover {
+    color: #8a082d; /* Cambia el color del texto en hover si lo deseas */
+}
+
+.saying{
+ 
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.titulo {
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+
+#parrafo{
+margin-bottom: 20px;
+}
+
+
+.collection-item img {
+  transition: transform 0.4s ease;
+}
+
+.collection-item:hover img {
+  transform: scale(1.03);
+}
+
+
+    .whatsapp-btn {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe57;
+    }
+
