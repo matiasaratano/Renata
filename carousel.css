@@ -26,10 +26,10 @@ body {
     width: auto;
     margin-left: 100px;
 }
-.navbar-nav {
+/*.navbar-nav {
   margin-right: 100px;
 }
-
+*/
 #myCarousel {
     margin-top: 100px; /* Ajusta este valor según la altura de tu header */
 }
@@ -229,5 +229,27 @@ margin-bottom: 20px;
 
     .whatsapp-btn:hover {
       background-color: #1ebe57;
+    }
+ .navbar-light .navbar-brand,
+    .navbar-light .navbar-toggler,
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0,1); /* Color oscuro para los elementos */
+    }
+ .dropdown-menu {
+      background-color: rgb(248 249 250) !important; /* Color de fondo del menú desplegable */
+      border: none;
+
+    }
+    
+    @media (max-width: 767.98px) {
+        .navbar-collapse {
+            position: absolute;
+            top: 150px; /* Altura del navbar */
+            left: 0;
+            width: 100%;
+            z-index: 1;
+            font-weight: bolder;
+            background-color: rgb(248 249 250) !important; /* Color de fondo del menú desplegable */
+        }
     }
 
