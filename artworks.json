@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Breeze of Fresh Beginnings - Taupo",
-     "style": "Oil on canvas",
+    "style": "Oil on canvas",
     "description": "'Breeze of Fresh Beginnings' portrays a captivating scene with a boundless sky adorned by fluffy clouds, a serene glimpse of water, and warmly-toned land, evoking a sense of renewal and tranquillity.",
     "price": "$4,200.00 NZD",
     "dimensions": "750x1000",
@@ -26,7 +26,7 @@
     "image6": "products/Collections/Figurative/GoldenHorizon/GoldenHorizon-1_close_2048-180-v=1684319852&width=1445.jpg"
   },
     {
-    "id": "2",
+    "id": "3",
     "title": "Hillside Glow",
     "style": "Oil on board",
     "description": "In 'Hillside Glow,' the breathtaking view reveals rolling hills against a backdrop of dynamic clouds, illuminated by a radiant sunset that fills the scene with a warm and captivating splendour.",
