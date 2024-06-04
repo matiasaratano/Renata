@@ -7,15 +7,19 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Renata Nemeth - Figurative</title>
+    <title>Renata Nemeth - Art</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="favicon.png">
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"> -->
 
 <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -96,6 +100,20 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+     
+.modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#description{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
     </style>
 
     
@@ -130,7 +148,7 @@
 <header data-bs-theme="light">
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
     <div class="container-fluid d-flex justify-content-around align-items-center">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#">
             <img src="logo.png" alt="Logo" class="navbar-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -158,98 +176,125 @@
 </header>
 
 <main>
- <hr class="featurette-divider">
+
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
+  <div class="container marketing">
+    
+
+
+
+    <!-- START THE FEATURETTES -->
+
+    
+    <hr class="featurette-divider">
+
+<div class="container">
+ 
+    <div class="row featurette align-items-center">
+       <div class="col-md-6 order-md-1 text-center">
+        <img id="art-image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeofFreshBeginnings_1-v=1684320103&width=1445.jpg" style="margin-bottom: 20px;" alt="Profile image">
+      </div>
+      <div class="col-md-6 order-md-2">
+         <h1 class="text-center mb-5 titulo" id="title">Breeze of Fresh Beginnings - Taupo</h1>
+         <p id="style">Oil on canvas</p>
+        <h5 id="description">'Breeze of Fresh Beginnings' portrays a captivating scene with a boundless sky adorned by fluffy clouds, a serene glimpse of water, and warmly-toned land, evoking a sense of renewal and tranquillity.</h5>
+        
+        <p id="price">Regular Price: $4,200.00 NZD</p>
+        <p id="dimensions">Dimensions: 750x1000</p>
+      </div>
+    </div>
+  </div><!-- /.container -->
+  
 <section class="featured-collection py-5">
     <div class="container">
-      <h1 class="text-center mb-5 titulo">Recycled Timber Artwork</h1>
-      <div class="container featured-collection">
-        <div class="row">
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Morning Sunshine/MorningSunshine_2_44-v=1692687118&width=533.jpg" alt="Featured Image 1" class="img-fluid">
-              <p class="featured-item-title">Morning Sunshine</p>
-            </div>
+  
+      <div class="row g-3">
+       
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="collection-item text-center">
+            <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeOfFreshBeginnings-Taupo_close_2_2048-180-v=1684320103&width=1445.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Featured 2" data-toggle="modal" data-target="#imageModal">
+            
           </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Sara/Sara_1-v=1692686640&width=533.jpg" alt="Featured Image 2" class="img-fluid">
-              <p class="featured-item-title">Sara</p>
-            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="collection-item text-center">
+            <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeOfFreshBeginnings-Taupo_close_2048-180-v=1684320103&width=1445.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Featured 3" data-toggle="modal" data-target="#imageModal">
+           
           </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Lucia/Lucia-v=1692683630&width=533.jpg" alt="Featured Image 3" class="img-fluid">
-              <p class="featured-item-title">Lucia</p>
-            </div>
+        </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+          <div class="collection-item text-center">
+            <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeOfFreshBeginnings-Taupo_2048-72-v=1684320103&width=1445.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Featured 1" data-toggle="modal" data-target="#imageModal">
+            
           </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Lucas/Lucas-v=1692682948&width=533.jpg" alt="Featured Image 4" class="img-fluid">
-              <p class="featured-item-title">Lucas</p>
-            </div>
-          </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Walk in the Garden/Walk_In_The_Garden_2021-v=1684319911&width=533.jpg" alt="Featured Image 5" class="img-fluid">
-              <p class="featured-item-title">Walk in the Garden</p>
-            </div>
-          </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/River Valley/River_Valley_2021-v=1692602010&width=533.jpg" alt="Featured Image 6" class="img-fluid">
-              <p class="featured-item-title">River Valley</p>
-            </div>
-          </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Crossfire/Crossfire_2021-v=1684319921&width=533.jpg" alt="Featured Image 7" class="img-fluid">
-              <p class="featured-item-title">Crossfire</p>
-            </div>
-          </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Complexity/Complexity_20211-v=1684319929&width=533.jpg" alt="Featured Image 8" class="img-fluid">
-              <p class="featured-item-title">Complexity</p>
-            </div>
-          </div>
-          <!-- Repeat this block for each featured item -->
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 mb-4">
-            <div class="featured-item">
-              <img src="products/Collections/Recycled/Alana/Alana_2021-v=1684319939&width=533.jpg" alt="Featured Image 9" class="img-fluid">
-              <p class="featured-item-title">Alana</p>
-            </div>
-          </div>
-          
-         
         </div>
       </div>
     </div>
   </section>
 
+
+
+
+
+
+ <!-- Modal with Carousel -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-body">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeOfFreshBeginnings-Taupo_2048-72-v=1684320103&width=1445.jpg" class="d-block w-100" alt="Featured Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeOfFreshBeginnings-Taupo_close_2_2048-180-v=1684320103&width=1445.jpg" class="d-block w-100" alt="Featured Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeOfFreshBeginnings-Taupo_close_2048-180-v=1684320103&width=1445.jpg" class="d-block w-100" alt="Featured Image 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="products/Collections/Figurative/BreezeofFreshBeginnings/BreezeofFreshBeginnings_1-v=1684320103&width=1445.jpg" class="d-block w-100" alt="Featured Image 4">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 <hr class="featurette-divider">
-  <!-- FOOTER -->
-  <footer class="container">
+ <!-- FOOTER -->
+ <footer class="container">
     <p class="float-end">
-    <a href="#start" id="back-to-top" class="d-inline-flex align-items-center">
-        Back to top <i class="bi bi-arrow-up-circle ms-1"></i>
-    </a>
-</p>
-    <p>&copy;2024 Renata Nemeth.</p>
-  </footer>
+        <a href="#start" id="back-to-top" class="d-inline-flex align-items-center">
+            Back to top <i class="bi bi-arrow-up-circle ms-1"></i>
+        </a>
+    </p>
+    <p>&copy; 2024 Renata Nemeth. 
+        <a class="social" href="https://www.instagram.com/renata.nemeth.art/" class="ms-2" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a class="social"  href="https://www.facebook.com/renata.nemeth.art" class="ms-2" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a class="social"  href="mailto:hello@renatanemeth.com" class="ms-2"><i class="bi bi-envelope"></i></a>
+    </p>
+</footer>
 </main>
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    </body>
+
+</body>
 </html>

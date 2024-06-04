@@ -96,6 +96,9 @@ body {
     height: 2rem; /* Ajusta el tamaño de los controles */
     width: 2rem;  /* Ajusta el tamaño de los controles */
   }
+  .navbar-logo {
+    margin-left: 0px;
+}
 }
 
 /* Ajustes para pantallas muy pequeñas */
@@ -281,3 +284,31 @@ margin-bottom: 20px;
 .links{
   text-decoration: none;
 }
+
+.social {
+  margin-left: 20px;
+  color: #c31949; /* Puedes ajustar el color según tu diseño */
+}
+
+.footer-icons i {
+        font-size: 3.5rem;
+        
+    }
+    .footer-icons a {
+        text-decoration: none;
+        color: inherit; /* Mantiene el color del texto actual */
+    }
+    .footer-icons a:hover {
+        color: #007bff; /* Color al hacer hover */
+    }
+
+    /* Estilo para eliminar el subrayado azul de los enlaces */
+  .enlace-js{
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto */
+  }
+
+  /* Estilo opcional para cambiar el color del texto al pasar el ratón */
+  .enlace-js:hover {
+    color: inherit; /* Hereda el color del texto al pasar el ratón */
+  
