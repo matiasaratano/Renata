@@ -236,16 +236,7 @@
                 <label for="comment">Comment</label>
                 <textarea id="comment" name="comment" placeholder="Your comment"></textarea>
             </div>
-            <div class="form-group">
-                <label for="category">Category</label>
-                <select id="category" name="category">
-                    <option value="">Select one</option>
-                    <option value="Query">Query</option>
-                    <option value="Request">Request</option>
-                    <option value="Complaint">Complaint</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
+        
             <div class="form-submit">
                 <button type="submit">Submit</button>
             </div>
@@ -271,7 +262,19 @@
     </p>
 </footer>
 </main>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const product = urlParams.get('product');
+
+        if (product) {
+            const commentField = document.getElementById('comment');
+            commentField.value = `I am interested in the product: ${product}`;
+        }
+    });
+</script>
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
 
     </body>
 </html>
