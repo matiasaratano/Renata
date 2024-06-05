@@ -1,310 +1,348 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="./assets/js/color-modes.js"></script>
-<!--
+  <head>
+    <script src="./assets/js/color-modes.js"></script>
+    <!--
 Bootstrap v5.0.0 (https://getbootstrap.com/)
 Copyright 2011-2024 The Bootstrap Authors
 Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Renata Nemeth Website" />
     <title>Renata Nemeth</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
-
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #c31949;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #8a082d;
-        --bs-btn-hover-border-color: #8a082d;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #8a082d;
-        --bs-btn-active-border-color: #8a082d;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/carousel/"
+    />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="carousel.css" rel="stylesheet" />
   </head>
+
   <body id="start">
-    
+    <div
+      class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"
+    >
+      <a
+        class="whatsapp-btn"
+        href="https://wa.me/YOUR_PHONE_NUMBER"
+        target="_blank"
+        aria-label="Contact us on WhatsApp"
+      >
+        <i class="bi bi-whatsapp"></i>
+        <span class="visually-hidden">Contact us on WhatsApp</span>
+      </a>
+    </div>
 
-  
- <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    <a class="whatsapp-btn" href="https://wa.me/YOUR_PHONE_NUMBER" target="_blank" aria-label="Contact us on WhatsApp">
-      <i class="bi bi-whatsapp"></i>
-      <span class="visually-hidden">Contact us on WhatsApp</span>
-    </a>
-  </div>
-    
-<header data-bs-theme="light">
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <div class="container-fluid d-flex justify-content-around align-items-center">
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/logo.png" alt="Logo" class="navbar-logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <header data-bs-theme="light">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div
+          class="container-fluid d-flex justify-content-around align-items-center"
+        >
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/logo.png" alt="Logo" class="navbar-logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarCollapse"
+          >
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="collections.html">Collections</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="collections.html">Collections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-        </div>
-    </div>
-</nav>
-
-
-</header>
-
-<main>
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/fondo1.jpg" class="d-block w-100" alt="Slide 1">
-            
-        </div>
-        <div class="carousel-item">
-            <img src="assets/fondo2.jpg" class="d-block w-100" alt="Slide 2">
-           
-        </div>
-        <div class="carousel-item">
-            <img src="assets/fondo3.jpg" class="d-block w-100" alt="Slide 3">
-            
-        </div>
-        <div class="carousel-item">
-            <img src="assets/fondo4.jpg" class="d-block w-100" alt="Slide 4">
-          
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-
- <section class="featured-collection py-5">
-    <div class="container">
-      <h1 class="text-center mb-5 titulo">Featured Collection</h1>
-      <div class="row g-4">
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="collection-item text-center">
-            <a class="links" href="products/details.html">
-            <img src="assets/featured1.jpg" class="img-fluid peque" alt="Featured 1"> </a>
-            <p class="mt-2">Breeze of Fresh Beginnings - Taupo</p>
-         
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="collection-item text-center">
-              <a class="links" href="products/details2.html">
-            <img src="assets/featured2.jpg" class="img-fluid peque" alt="Featured 2"></a>
-            <p class="mt-2">Golden Horizon - Cornwallis Wharf</p>
-          
+      </nav>
+    </header>
+
+    <main>
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/fondo1.jpg" class="d-block w-100" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fondo2.jpg" class="d-block w-100" alt="Slide 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fondo3.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fondo4.jpg" class="d-block w-100" alt="Slide 4" />
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="collection-item text-center">
-              <a class="links" href="products/details3.html">
-            <img src="assets/featured3.jpg" class="img-fluid peque" alt="Featured 3"></a>
-            <p class="mt-2">Hillside Glow</p>
-          
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="collection-item text-center">
-              <a class="links" href="products/details4.html">
-            <img src="assets/featured4.jpg" class="img-fluid" alt="Featured 4">  </a>
-            <p class="mt-2">Whispering Flow - Whanganui River</p>
-        
-          </div>
-        </div>
-        <div class="text-center mt-5">
-        <p><a class="btn btn-bd-primary" href="figurative.html">View All &raquo;</a></p>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      </div>
-    </div>
-  </section>
 
+      <section class="featured-collection py-5">
+        <div class="container">
+          <h1 class="text-center mb-5 titulo">Featured Collection</h1>
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="collection-item text-center">
+                <a class="links" href="products/details.html">
+                  <img
+                    src="assets/featured1.jpg"
+                    class="img-fluid peque"
+                    alt="Featured 1"
+                  />
+                </a>
+                <p class="mt-2">Breeze of Fresh Beginnings - Taupo</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="collection-item text-center">
+                <a class="links" href="products/details2.html">
+                  <img
+                    src="assets/featured2.jpg"
+                    class="img-fluid peque"
+                    alt="Featured 2"
+                /></a>
+                <p class="mt-2">Golden Horizon - Cornwallis Wharf</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="collection-item text-center">
+                <a class="links" href="products/details3.html">
+                  <img
+                    src="assets/featured3.jpg"
+                    class="img-fluid peque"
+                    alt="Featured 3"
+                /></a>
+                <p class="mt-2">Hillside Glow</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="collection-item text-center">
+                <a class="links" href="products/details4.html">
+                  <img
+                    src="assets/featured4.jpg"
+                    class="img-fluid peque"
+                    alt="Featured 4"
+                  />
+                </a>
+                <p class="mt-2">Whispering Flow - Whanganui River</p>
+              </div>
+            </div>
+            <div class="text-center mt-5">
+              <p>
+                <a class="btn btn-bd-primary" href="figurative.html"
+                  >View All &raquo;</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <hr
+        class="featurette-divider"
+        style="margin-bottom: 10px; margin-top: 10px"
+      />
 
-      <hr class="featurette-divider">
-
-
-
-  <!-- Marketing messaging and featurettes
+      <!-- Marketing messaging and featurettes
   ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
-    <h1 class="text-center mb-5 titulo" style="margin-bottom:50px">Collections</h1>
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-    <div class="col-lg-4 collection-item">
-      <a class="links" href="figurative.html">
-        <img src="assets/figurative.png" class="bd-placeholder-img rounded-circle" width="350" height="350" alt="collection"></a>
-        <h2 class="fw-normal">Figurative</h2>
-        <!-- <p>Some representative placeholder content for the first column.</p> -->
-        <p><a class="btn btn-bd-primary" href="#">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4 collection-item">
-      <a class="links" href="abstract.html">
-        <img src="assets/abstract.png" class="bd-placeholder-img rounded-circle" width="350" height="350" alt="collection"></a>
-        <h2 class="fw-normal">Abstract</h2>
-        <!-- <p>Another exciting bit of representative placeholder content.</p> -->
-        <p><a class="btn btn-bd-primary" href="#">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4 collection-item">
-      <a class="links" href="recycled.html">
-        <img src="assets/recycled.png" class="bd-placeholder-img rounded-circle" width="350" height="350" alt="collection"></a>
-        <h2 class="fw-normal">Recycled Timber Artwork</h2>
-        <p><a class="btn btn-bd-primary" href="#">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-</div><!-- /.row -->
+      <div class="container marketing">
+        <h1 class="text-center mb-5 titulo" style="margin-bottom: 50px">
+          Collections
+        </h1>
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4 collection-item">
+            <a class="links" href="figurative.html">
+              <img
+                src="assets/figurative.png"
+                class="bd-placeholder-img rounded-circle"
+                width="250"
+                height="250"
+                alt="collection"
+            /></a>
+            <h2 class="fw-normal">Figurative</h2>
+            <!-- <p>Some representative placeholder content for the first column.</p> -->
+            <p>
+              <a class="btn btn-bd-primary" href="figurative.html"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 collection-item">
+            <a class="links" href="abstract.html">
+              <img
+                src="assets/abstract.png"
+                class="bd-placeholder-img rounded-circle"
+                width="250"
+                height="250"
+                alt="collection"
+            /></a>
+            <h2 class="fw-normal">Abstract</h2>
+            <!-- <p>Another exciting bit of representative placeholder content.</p> -->
+            <p>
+              <a class="btn btn-bd-primary" href="abstract.html"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 collection-item">
+            <a class="links" href="recycled.html">
+              <img
+                src="assets/recycled.png"
+                class="bd-placeholder-img rounded-circle"
+                width="250"
+                height="250"
+                alt="collection"
+            /></a>
+            <h2 class="fw-normal">Recycled Timber Artwork</h2>
+            <p>
+              <a class="btn btn-bd-primary" href="recycled.html"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
 
+        <hr class="featurette-divider" />
 
-<hr class="featurette-divider">
-    
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
 
+      <div class="saying">
+        <h1 class="titulo" id="titulo">What Others are Saying</h1>
+        <p id="parrafo">
+          "We especially love her round timber works with gorgeous shiny copper
+          rims, [...]. You need to take a closer look to appreciate her
+          sculptural landscape paintings which look like a photo until you're
+          close enough to see there is real sand!"
+        </p>
+        <p id="parrafo">
+          "Your work is spectacular. So diverse original and interesting ❤️"
+        </p>
+        <p id="parrafo">
+          "Keep up the brilliant work, I love seeing your creations shine.
+          “Artists are like the Phoenix, they periodically have to
+          self-immolate, burn off an aspect of themselves to give birth to
+          something new. “ ~Alex Grey. Wishing you a wonderful week with many
+          “ah ha” moments."
+        </p>
+      </div>
+      <hr class="featurette-divider" />
 
-
-
-
-
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-<div class="saying">
-  <h1 class="titulo" id="titulo">What Others are Saying</h1>
-  <p id="parrafo">"We especially love her round timber works with gorgeous shiny copper rims, [...]. You need to take a closer look to appreciate her sculptural landscape paintings which look like a photo until you're close enough to see there is real sand!"</p>
-  <p id="parrafo">"Your work is spectacular. So diverse original and interesting ❤️"</p>
-  <p id="parrafo">"Keep up the brilliant work, I love seeing your creations shine. “Artists are like the Phoenix, they periodically have to self-immolate, burn off an aspect of themselves to give birth to something new. “ ~Alex Grey. Wishing you a wonderful week with many “ah ha” moments."</p>
-</div>
-<hr class="featurette-divider">
-
-  <!-- FOOTER -->
- <footer class="container">
-    <p class="float-end">
-        <a href="#start" id="back-to-top" class="d-inline-flex align-items-center">
-           <i class="bi bi-arrow-up-circle ms-1"></i>
-        </a>
-    </p>
-    <p>&copy; 2024 Renata Nemeth. 
-        <a class="social" href="https://www.instagram.com/renata.nemeth.art/" class="ms-2" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a class="social"  href="https://www.facebook.com/renata.nemeth.art" class="ms-2" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a class="social"  href="mailto:hello@renatanemeth.com" class="ms-2"><i class="bi bi-envelope"></i></a>
-    </p>
-</footer>
-
-</main>
-<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-
-    </body>
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end">
+          <a
+            href="#start"
+            id="back-to-top"
+            class="d-inline-flex align-items-center"
+          >
+            <i class="bi bi-arrow-up-circle ms-1"></i>
+          </a>
+        </p>
+        <p>
+          &copy; 2024 Renata Nemeth.
+          <a
+            class="social"
+            href="https://www.instagram.com/renata.nemeth.art/"
+            class="ms-2"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            class="social"
+            href="https://www.facebook.com/renata.nemeth.art"
+            class="ms-2"
+            target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a class="social" href="mailto:hello@renatanemeth.com" class="ms-2"
+            ><i class="bi bi-envelope"></i
+          ></a>
+        </p>
+      </footer>
+    </main>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

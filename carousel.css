@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Assistant-ExtraLight';
-    src: url('Assistant-ExtraLight.ttf') format('truetype');
-    font-weight: 200; /* Puedes ajustar el peso según sea necesario */
-    font-style: normal; /* Puedes ajustar el estilo según sea necesario */
+  font-family: 'Assistant-ExtraLight';
+  src: url('Assistant-ExtraLight.ttf') format('truetype');
+  font-weight: 200; /* Puedes ajustar el peso según sea necesario */
+  font-style: normal; /* Puedes ajustar el estilo según sea necesario */
 }
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -12,44 +12,42 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
-  font-family: 'Assistant-ExtraLight', sans-serif; 
+  font-family: 'Assistant-ExtraLight', sans-serif;
 }
 
 .navbar {
-    height: 150px; /* Ajusta esta altura al tamaño de tu logo */
-    font-family: 'Assistant-ExtraLight', sans-serif; 
-    font-size: 14px;
+  height: 150px; /* Ajusta esta altura al tamaño de tu logo */
+  font-family: 'Assistant-ExtraLight', sans-serif;
+  font-size: 14px;
 }
 
 .navbar-logo {
-    height: 108px; /* Asegúrate de que esta altura coincida con la del logo */
-    width: auto;
-    margin-left: 100px;
+  height: 108px; /* Asegúrate de que esta altura coincida con la del logo */
+  width: auto;
+  margin-left: 100px;
 }
 /*.navbar-nav {
   margin-right: 100px;
 }
 */
 #myCarousel {
-    margin-top: 100px; /* Ajusta este valor según la altura de tu header */
+  margin-top: 100px; /* Ajusta este valor según la altura de tu header */
 }
- 
+
 .container-fluid {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
- .navbar-collapse {
-        text-align: center;
-    }
+.navbar-collapse {
+  text-align: center;
+}
 
 @media (max-width: 768px) {
-    .navbar-collapse {
-        text-align: center;
-    }
+  .navbar-collapse {
+    text-align: center;
+  }
 }
-
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -75,14 +73,12 @@ body {
   object-fit: cover; /* Esto asegura que la imagen cubra el área del contenedor */
 }
 
-
-
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   .carousel-item {
     height: 30rem; /* Ajusta la altura para pantallas más pequeñas */
   }
-  
+
   .carousel-caption h1 {
     font-size: 2rem; /* Ajusta el tamaño del encabezado */
   }
@@ -94,11 +90,11 @@ body {
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     height: 2rem; /* Ajusta el tamaño de los controles */
-    width: 2rem;  /* Ajusta el tamaño de los controles */
+    width: 2rem; /* Ajusta el tamaño de los controles */
   }
   .navbar-logo {
     margin-left: 0px;
-}
+  }
 }
 
 /* Ajustes para pantallas muy pequeñas */
@@ -118,16 +114,13 @@ body {
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     height: 1.5rem; /* Ajusta el tamaño de los controles */
-    width: 1.5rem;  /* Ajusta el tamaño de los controles */
+    width: 1.5rem; /* Ajusta el tamaño de los controles */
   }
 
   .peque {
     width: 50%;
   }
 }
-
-
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -139,11 +132,10 @@ body {
 }
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 /* rtl:end:ignore */
-
 
 /* Featurettes
 ------------------------- */
@@ -155,7 +147,7 @@ body {
 /* Thin out the marketing headings */
 /* rtl:begin:remove */
 .featurette-heading {
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 /* rtl:end:remove */
@@ -182,21 +174,17 @@ body {
   }
 }
 
-
-
-
 #back-to-top {
-    text-decoration: none; /* Quita el subrayado del enlace */
-    color: #c31949; /* Color del texto */
-    font-size: 1rem; /* Tamaño de fuente */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: #c31949; /* Color del texto */
+  font-size: 1rem; /* Tamaño de fuente */
 }
 
 #back-to-top:hover {
-    color: #8a082d; /* Cambia el color del texto en hover si lo deseas */
+  color: #8a082d; /* Cambia el color del texto en hover si lo deseas */
 }
 
-.saying{
- 
+.saying {
   text-align: center;
   max-width: 60%;
   margin: 0 auto; /* Centra horizontalmente */
@@ -207,11 +195,9 @@ body {
   margin-bottom: 40px;
 }
 
-
-#parrafo{
-margin-bottom: 20px;
+#parrafo {
+  margin-bottom: 20px;
 }
-
 
 .collection-item img {
   transition: transform 0.4s ease;
@@ -221,72 +207,73 @@ margin-bottom: 20px;
   transform: scale(1.03);
 }
 
+.whatsapp-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+}
 
-    .whatsapp-btn {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5em;
-      background-color: #25d366;
-      color: white;
-      text-decoration: none;
-    }
+.whatsapp-btn:hover {
+  background-color: #1ebe57;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1); /* Color oscuro para los elementos */
+}
+.dropdown-menu {
+  background-color: rgb(
+    248 249 250
+  ) !important; /* Color de fondo del menú desplegable */
+  border: none;
+}
 
-    .whatsapp-btn:hover {
-      background-color: #1ebe57;
-    }
- .navbar-light .navbar-brand,
-    .navbar-light .navbar-toggler,
-    .navbar-light .navbar-nav .nav-link {
-        color: rgba(0, 0, 0,1); /* Color oscuro para los elementos */
-    }
- .dropdown-menu {
-      background-color: rgb(248 249 250) !important; /* Color de fondo del menú desplegable */
-      border: none;
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 150px; /* Altura del navbar */
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-weight: bolder;
+    background-color: rgb(
+      248 249 250
+    ) !important; /* Color de fondo del menú desplegable */
+  }
+}
 
-    }
-    
-    @media (max-width: 767.98px) {
-        .navbar-collapse {
-            position: absolute;
-            top: 150px; /* Altura del navbar */
-            left: 0;
-            width: 100%;
-            z-index: 1;
-            font-weight: bolder;
-            background-color: rgb(248 249 250) !important; /* Color de fondo del menú desplegable */
-        }
-    }
+.featured-collection {
+  padding: 2rem 0;
+  text-align: center;
+}
 
- .featured-collection {
-      padding: 2rem 0;
-      text-align: center;
-    }
+.featured-collection h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
 
-    .featured-collection h1 {
-      margin-bottom: 2rem;
-      font-size: 2rem;
-    }
+.featured-item img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
 
-    .featured-item img {
-      width: 100%;
-      transition: transform 0.4s ease;
-    }
+.featured-item img:hover {
+  transform: scale(1.03);
+}
 
-    .featured-item img:hover {
-        transform: scale(1.03);
-    }
+.featured-item-title {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
 
-    .featured-item-title {
-      margin-top: 0.5rem;
-      font-size: 1rem;
-    }
-
-
-.links{
+.links {
   text-decoration: none;
 }
 
@@ -296,24 +283,112 @@ margin-bottom: 20px;
 }
 
 .footer-icons i {
-        font-size: 3.5rem;
-        
-    }
-    .footer-icons a {
-        text-decoration: none;
-        color: inherit; /* Mantiene el color del texto actual */
-    }
-    .footer-icons a:hover {
-        color: #007bff; /* Color al hacer hover */
-    }
+  font-size: 3.5rem;
+}
+.footer-icons a {
+  text-decoration: none;
+  color: inherit; /* Mantiene el color del texto actual */
+}
+.footer-icons a:hover {
+  color: #007bff; /* Color al hacer hover */
+}
 
-    /* Estilo para eliminar el subrayado azul de los enlaces */
-  .enlace-js{
-    text-decoration: none; /* Elimina el subrayado */
-    color: inherit; /* Hereda el color del texto */
+/* Estilo para eliminar el subrayado azul de los enlaces */
+.enlace-js {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del texto */
+}
+
+/* Estilo opcional para cambiar el color del texto al pasar el ratón */
+.enlace-js:hover {
+  color: inherit; /* Hereda el color del texto al pasar el ratón */
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+}
 
-  /* Estilo opcional para cambiar el color del texto al pasar el ratón */
-  .enlace-js:hover {
-    color: inherit; /* Hereda el color del texto al pasar el ratón */
-  
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #c31949;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #8a082d;
+  --bs-btn-hover-border-color: #8a082d;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #8a082d;
+  --bs-btn-active-border-color: #8a082d;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+.sold-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: black; /* Fondo rojo con algo de transparencia */
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 1;
+}
